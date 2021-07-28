@@ -20,4 +20,5 @@ describe('FizzBuzz', () => {
     it('is expected to return fizzbuzz if given 15', () => {
         expect(game.play(15)).to.eql('fizzbuzz')
     })
+    
 })
